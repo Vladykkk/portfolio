@@ -17,13 +17,25 @@ const Navbar = () => {
           Vladyslav Rybak
         </motion.span>
         <div className="social">
-          <a href="#">
+          <a
+            href="https://www.linkedin.com/in/vladyslav-rybak/"
+            rel="noreferrer"
+            target="_blank"
+          >
             <img src="/linkedin.svg" alt="Linkedin icon" />
           </a>
-          <a href="#">
+          <a
+            href="https://www.instagram.com/vladyslavrybak/"
+            rel="noreferrer"
+            target="_blank"
+          >
             <img src="/instagram.svg" alt="Instagram icon" />
           </a>
-          <a href="#">
+          <a
+            href="https://github.com/Vladykkk"
+            rel="noreferrer"
+            target="_blank"
+          >
             <img src="/github.svg" alt="Github icon" />
           </a>
         </div>
