@@ -11,7 +11,7 @@ import "./app.scss";
 const App = () => {
   return (
     <div>
-      {/* <Cursor /> */}
+      <Cursor />
       <section id="Homepage">
         <Navbar />
         <Hero />
