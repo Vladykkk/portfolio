@@ -54,10 +54,16 @@ const Hero = () => {
             Web Developer and UI designer
           </motion.h1>
           <motion.div className="buttons" variants={textVariants}>
-            <motion.button variants={textVariants}>
-              See The Latest Works
-            </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <a href="#Portfolio">
+              <motion.button variants={textVariants}>
+                See The Latest Works
+              </motion.button>
+            </a>
+            <a href="#Contact">
+              <motion.button className="contactButton" variants={textVariants}>
+                Contact Me
+              </motion.button>
+            </a>
           </motion.div>
           <motion.img
             src="/scroll.png"
@@ -66,6 +72,9 @@ const Hero = () => {
             animate="scrollButton"
           />
         </motion.div>
+        <div className="imageContainer">
+          <img src="/me.jpg" alt="Hero image" />
+        </div>
       </div>
       <motion.div
         className="slidingTextContainer"
@@ -75,9 +84,6 @@ const Hero = () => {
       >
         Web Developer Creator Influencer
       </motion.div>
-      <div className="imageContainer">
-        <img src="/hero.png" alt="Hero image" />
-      </div>
     </div>
   );
 };
