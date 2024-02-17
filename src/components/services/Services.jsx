@@ -1,7 +1,7 @@
 import { motion, useInView } from "framer-motion";
+import { useRef } from "react";
 
 import "./services.scss";
-import { useRef } from "react";
 
 const variants = {
   initial: {
