@@ -72,9 +72,14 @@ const Hero = () => {
             animate="scrollButton"
           />
         </motion.div>
-        <div className="imageContainer">
-          <img src="/me.jpg" alt="Hero image" />
-        </div>
+        <motion.div
+          className="imageContainer"
+          variants={textVariants}
+          initial="initial"
+          animate="animate"
+        >
+          <motion.img src="/me.jpg" alt="Hero image" />
+        </motion.div>
       </div>
       <motion.div
         className="slidingTextContainer"

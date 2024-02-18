@@ -7,7 +7,7 @@ import "./about.scss";
 
 const variants = {
   initial: {
-    x: -500,
+    x: -200,
     opacity: 0,
   },
   animate: {
