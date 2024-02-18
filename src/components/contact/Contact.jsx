@@ -104,8 +104,20 @@ const Contact = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 4, duration: 1 }}
         >
-          <input type="text" required placeholder="Name" name="name" />
-          <input type="email" required placeholder="Email" name="email" />
+          <input
+            type="text"
+            required
+            autoComplete="on"
+            placeholder="Name"
+            name="name"
+          />
+          <input
+            type="email"
+            required
+            autoComplete="on"
+            placeholder="Email"
+            name="email"
+          />
           <textarea rows={8} placeholder="Message" name="message" />
           <button>Submit</button>
           {error && "Error"}
