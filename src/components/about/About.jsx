@@ -60,10 +60,19 @@ const About = () => {
             <h2>Skills</h2>
             <Skills />
           </motion.div>
-          {/* <div className="experience">
-            <h2>Experience</h2>
-            <p>My Experience</p>
-          </div> */}
+          <motion.div className="certificates">
+            <h2>Certificates</h2>
+            <div className="certificatesImages">
+              <img
+                src="/best-lviv-certificate.png"
+                alt="Best Lviv Hackathon certificate"
+              />
+              <img
+                src="/best-kyiv-certificate.png"
+                alt="Best Kyiv Hackathon certificate"
+              />
+            </div>
+          </motion.div>
         </motion.div>
       </motion.div>
     </motion.div>
