@@ -26,6 +26,7 @@
 
       h2 {
         font-size: clamp(1.25rem, 5vw, 2.25rem);
+        font-weight: 700;
         margin-bottom: 1.125em;
       }
 
@@ -35,6 +36,7 @@
 
       p {
         font-size: clamp(1rem, 4vw, 1.25rem);
+        line-height: 1.2;
       }
 
       .biography {
@@ -56,6 +58,8 @@
 
           button {
             padding: 0.5em;
+            font-size: 0.8125rem;
+            color: black;
             background-color: white;
             border: none;
             border-radius: 5px;

@@ -34,12 +34,15 @@
 
       h2 {
         font-size: clamp(1.5rem, 5vw, 1.875rem);
+        font-weight: 700;
         color: rebeccapurple;
         letter-spacing: 10px;
       }
 
       h1 {
         font-size: clamp(2rem, 7vw, 5.5rem);
+        font-weight: 700;
+        line-height: 1.3;
         z-index: 2;
       }
 
@@ -49,6 +52,7 @@
         button {
           margin-right: 1.5em;
           padding: 1.5em;
+          font-size: 0.8125rem;
           font-weight: 300;
           border: 1px solid white;
           border-radius: 10px;
