@@ -40,20 +40,15 @@ const About = () => {
             <p>
               I have started my career in web development at 2022, I was
               learning basics of layout with a lot of motivation and enthusiasm.
-              After making my first{" "}
-              <a
-                href="https://vladykkk.github.io/my-portfolio/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                portfolio
-              </a>{" "}
-              my friend have texted me, that he searching a developer for a
-              landing portfolio page for him and I agree. That&apos;s how I earn
-              my first money. After this I was developing more pet projects, and
-              improves my skills, learning new technologies, discovering new
-              features, and now I am learning React, and TypeScript, while
-              searching a job vacancies.
+              After making several projects my friend have texted me, that he
+              searching a developer for a landing portfolio page for him and I
+              agree.
+              <br />
+              <br />
+              That&apos;s how I earn my first money. After this I was developing
+              more pet projects, and improves my skills, learning new
+              technologies, discovering new features, and now I am learning
+              React, and TypeScript, while searching a job vacancies.
             </p>
           </motion.div>
           <motion.div className="skillsContainer" variants={variants}>
@@ -62,15 +57,13 @@ const About = () => {
           </motion.div>
           <motion.div className="certificates">
             <h2>Certificates</h2>
-            <div className="certificatesImages">
-              <img
-                src="/best-lviv-certificate.png"
-                alt="Best Lviv Hackathon certificate"
-              />
-              <img
-                src="/best-kyiv-certificate.png"
-                alt="Best Kyiv Hackathon certificate"
-              />
+            <div className="certificatesLinks">
+              <a href="https://drive.google.com/file/d/1_2lVU-HienMTBBiGhfX76Tq90ZiVpk7N/view?usp=sharing">
+                Hackathon BEST Lviv 2023
+              </a>
+              <a href="https://drive.google.com/file/d/1TUk6YM-F0b0MrwYKCtxsRVPJ2YlObF_6/view?usp=sharing">
+                Hackathon INT20H 2023
+              </a>
             </div>
           </motion.div>
         </motion.div>

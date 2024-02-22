@@ -25,9 +25,9 @@
       }
 
       h2 {
-        font-size: clamp(1.25rem, 5vw, 2.25rem);
+        font-size: clamp(1.5rem, 5vw, 2.25rem);
         font-weight: 700;
-        margin-bottom: 1.125em;
+        margin-bottom: 0.75em;
       }
 
       a {
@@ -35,7 +35,7 @@
       }
 
       p {
-        font-size: clamp(1rem, 4vw, 1.25rem);
+        font-size: clamp(1rem, 4vw, 1.35rem);
         line-height: 1.2;
       }
 
@@ -58,7 +58,7 @@
 
           button {
             padding: 0.5em;
-            font-size: 0.8125rem;
+            font-size: 0.85rem;
             color: black;
             background-color: white;
             border: none;
@@ -71,22 +71,11 @@
         }
       }
 
-      .certificatesImages {
+      .certificatesLinks {
         display: flex;
-        gap: 2.5em;
-
-        @include tablet {
-          flex-wrap: wrap;
-          gap: 0;
-        }
-
-        img {
-          width: 40%;
-
-          @include tablet {
-            margin: auto;
-          }
-        }
+        flex-direction: column;
+        gap: 2em;
+        font-size: clamp(1rem, 4vw, 1.125rem);
       }
     }
   }
