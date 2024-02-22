@@ -58,10 +58,18 @@ const About = () => {
           <motion.div className="certificates">
             <h2>Certificates</h2>
             <div className="certificatesLinks">
-              <a href="https://drive.google.com/file/d/1_2lVU-HienMTBBiGhfX76Tq90ZiVpk7N/view?usp=sharing">
+              <a
+                href="https://drive.google.com/file/d/1_2lVU-HienMTBBiGhfX76Tq90ZiVpk7N/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Hackathon BEST Lviv 2023
               </a>
-              <a href="https://drive.google.com/file/d/1TUk6YM-F0b0MrwYKCtxsRVPJ2YlObF_6/view?usp=sharing">
+              <a
+                href="https://drive.google.com/file/d/1TUk6YM-F0b0MrwYKCtxsRVPJ2YlObF_6/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Hackathon INT20H 2023
               </a>
             </div>
