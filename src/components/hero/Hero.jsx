@@ -87,7 +87,7 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        Web Developer Creator Influencer
+        Front-End Developer Web Designer
       </motion.div>
     </div>
   );
